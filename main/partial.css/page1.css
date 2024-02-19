@@ -1,0 +1,247 @@
+@font-face {
+  font-family:outfit ;
+  src: url(../../fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: young;
+  src: url(../../fonts/young-serif/YoungSerif-Regular.ttf);
+}
+div.wrapper {
+  width: 100%;
+  height: 1530px;
+}
+div.wrapper > div.page1 {
+  width: 1200px;
+  height: 1530px;
+  background-color: #f3e5d8;
+  margin-left: 620px;
+  box-shadow: 20px 20px 20px rgba(143, 143, 143, 0.267);
+}
+div.wrapper > div.page1 > div.plate {
+  width: 750px;
+  height: 1450px;
+  background-color: white;
+  margin: 0 auto;
+  padding-top: 130px;
+  border-radius: 0 0 15px 15px;
+}
+
+div.wrapper > div.page1 > div.plate > div.img > img {
+  width: 690px;
+  position: absolute;
+  bottom: 820px;
+  left: 875px;
+  border-radius: 0 0 15px 15px;
+}
+div.wrapper > div.page1 > div.plate > h1 {
+  width: 100%;
+  height: 55px;
+  padding-top: 7px;
+  padding-left: 5%;
+  font-family: young;
+}
+
+div.wrapper > div.page1 > div.plate > p:nth-of-type(1) {
+  width: 95%;
+  padding-left: 5%;
+  font-size: 18px;
+  font-family: outfit;
+}
+
+div.wrapper > div.page1 > div.plate > div:nth-of-type(2) {
+  width: 90%;
+  height: 190px;
+  background-color: #fff8fc;
+  padding-top: 4%;
+  padding-left: 5%;
+  margin: 3% auto;
+  border-radius: 10px;
+}
+
+div.wrapper > div.page1 > div.plate > div:nth-of-type(2) > h3 {
+  width: 100%;
+  height: 40px;
+  color: #b4316e;
+  font-family: outfit;
+}
+
+div.wrapper > div.page1 > div.plate > div:nth-of-type(2) > div {
+  width: 5px;
+  height: 5px;
+  background-color: black;
+  border-radius: 100%;
+  margin-top: 7px;
+  margin-left: 1px;
+}
+div.wrapper > div.page1 > div.plate > div:nth-of-type(2) > p {
+  position: relative;
+  top: -7%;
+  left: 4%;
+}
+div.wrapper > div.page1 > div.plate > div.ingredients > h2 {
+  margin-left: 5%;
+  height: 40px;
+  color: #835546;
+  font-family: young;
+}
+
+div.wrapper > div.page1 > div.plate > div.ingredients > div.point {
+  width: 5px;
+  height: 5px;
+  background-color: black;
+  border-radius: 100%;
+  margin-top: 7px;
+  margin-left: 6%;
+}
+div.wrapper > div.page1 > div.plate > div.ingredients {
+  height: 200px;
+}
+div.wrapper
+  > div.page1
+  > div.plate
+  > div.ingredients
+  > div.point:nth-of-type(4) {
+  background-color: black;
+  position: relative;
+  top: 20px;
+}
+div.wrapper > div.page1 > div.plate > div.Instructions > h2 {
+  color: #835546;
+  font-family: young;
+}
+div.wrapper > div.page1 > div.plate > div.ingredients > p {
+  position: relative;
+  left: 9%;
+  top: -10px;
+  width: 90%;
+  font-family: outfit;
+}
+
+div.wrapper > div.page1 > div.plate > div.ingredients > p:nth-of-type(4) {
+  margin-top: 1%;
+}
+div.wrapper > div.page1 > div.plate > div.line {
+  width: 90%;
+  height: 1px;
+  background-color: rgb(235, 235, 235);
+  margin: 0 auto;
+}
+div.wrapper > div.page1 > div.plate > div.Instructions {
+  width: 90%;
+  height: 455px;
+  padding-top: 2%;
+  margin: 0 auto;
+  color: #835546;
+  font-weight: 600;
+}
+div.wrapper > div.page1 > div.plate > div.Instructions > div.point {
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  margin-top: 15px;
+  margin-left: 1%;
+}
+div.wrapper > div.page1 > div.plate > div.Instructions > p > span {
+  font-weight: 600;
+}
+div.wrapper > div.page1 > div.plate > div.Instructions > p {
+  position: relative;
+  left: 5%;
+  top: -5px;
+  width: 80%;
+  color: black;
+  font-weight: 100;
+  font-family: outfit;
+}
+div.wrapper > div.page1 > div.plate > div.Nutrition {
+  width: 90%;
+  padding-top: 20px;
+  margin: 0 auto;
+}
+div.wrapper > div.page1 > div.plate > div.Nutrition > h2 {
+  color: #835546;
+  font-family: young;
+}
+div.wrapper > div.page1 > div.plate > div.Nutrition > p {
+  margin-top: 2%;
+  
+  font-family: outfit;
+}
+
+div.wrapper > div.page1 > div.plate > div.box{
+  width: 90%;
+  height: 200px;
+  margin: 3% auto;
+}
+
+div.wrapper > div.page1 > div.plate > div.box>div.box01{
+  display: flex;
+}
+div.wrapper > div.page1 > div.plate > div.box>div.box02{
+  display: flex;
+}div.wrapper > div.page1 > div.plate > div.box>div.box03{
+  display: flex;
+}div.wrapper > div.page1 > div.plate > div.box>div.box04{
+  display: flex;
+}
+div.wrapper > div.page1 > div.plate > div.box>div.box01>span{
+  border-bottom: 1px solid lightgray;
+  width: 75%;
+  margin-top: 10px;
+  padding-left: 5%;
+  font-family: outfit;
+}
+div.wrapper > div.page1 > div.plate > div.box>div.box02>span{
+  border-bottom: 1px solid lightgray;
+  width: 75%;
+  margin-top: 10px;
+  padding-left: 5%;
+  font-family: outfit;
+}div.wrapper > div.page1 > div.plate > div.box>div.box03>span{
+  border-bottom: 1px solid lightgray;
+  width: 75%;
+  margin-top: 10px;
+  padding-left: 5%;
+  font-family: outfit;
+}div.wrapper > div.page1 > div.plate > div.box>div.box04>span{
+  border-bottom: 1px solid lightgray;
+  width: 75%;
+  height: 30px;
+  margin-top: 10px;
+  padding-left: 5%;
+  font-family: outfit;
+}
+div.wrapper > div.page1 > div.plate > div.box>div.box01>p{
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  color: #835546;
+  font-weight: 600;
+  font-family: outfit;
+}
+div.wrapper > div.page1 > div.plate > div.box>div.box02>p{
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  color: #835546;
+  font-weight: 600;
+  font-family: outfit;
+}div.wrapper > div.page1 > div.plate > div.box>div.box03>p{
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  color: #835546;
+  font-weight: 600;
+  font-family: outfit;
+}div.wrapper > div.page1 > div.plate > div.box>div.box04>p{
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  border-bottom: 1px solid lightgray;
+  color: #835546;
+  font-weight: 600;
+  font-family: outfit;
+}
